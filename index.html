@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santhiya U | MCA Student & Full-Stack / AI Developer</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: { 500: '#3b82f6', 600: '#2563eb' }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 font-sans transition-colors duration-300">
+
+  <!-- Navigation Bar -->
+  <nav class="fixed top-0 w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 z-40 px-6 py-4 flex justify-between items-center">
+    <a href="#" class="text-xl font-bold bg-gradient-to-r from-blue-600 to-emerald-500 bg-clip-text text-transparent">Santhiya.dev</a>
+    <div class="flex items-center gap-6">
+      <div class="hidden md:flex gap-6 text-sm font-medium text-slate-600 dark:text-slate-300">
+        <a href="#about" class="hover:text-blue-500 transition">About</a>
+        <a href="#skills" class="hover:text-blue-500 transition">Skills</a>
+        <a href="#projects" class="hover:text-blue-500 transition">Projects</a>
+        <a href="#contact" class="hover:text-blue-500 transition">Contact</a>
+      </div>
+      <!-- Theme Switcher Toggle -->
+      <button id="theme-toggle" class="p-2 rounded-xl bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:opacity-80 transition" aria-label="Toggle Theme">
+        <i data-feather="sun" class="hidden dark:block w-5 h-5 text-amber-400"></i>
+        <i data-feather="moon" class="block dark:hidden w-5 h-5 text-slate-700"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="about" class="pt-32 pb-20 px-6 max-w-5xl mx-auto text-center">
+    <span class="inline-block bg-blue-100 dark:bg-blue-500/10 text-blue-700 dark:text-blue-400 px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-4 border border-blue-200 dark:border-blue-500/20">
+      AWS Certified Cloud Practitioner
+    </span>
+    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+      Hi, I'm <span class="bg-gradient-to-r from-blue-600 via-teal-500 to-emerald-500 bg-clip-text text-transparent">Santhiya U</span>
+    </h1>
+    <p class="text-base md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">
+      MCA student at Kongu Engineering College building full-stack platforms, machine learning classifiers, and agentic AI systems.
+    </p>
+    <div class="flex justify-center gap-4">
+      <a href="https://github.com/santhiya-udhaya" target="_blank" class="flex items-center gap-2 bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-100 px-5 py-2.5 rounded-lg border border-slate-300 dark:border-slate-700 font-medium transition">
+        <i data-feather="github" class="w-4 h-4"></i> GitHub
+      </a>
+      <a href="https://linkedin.com/in/santhiya-u" target="_blank" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg font-medium transition shadow-sm">
+        <i data-feather="linkedin" class="w-4 h-4"></i> LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <!-- Skills Matrix -->
+  <section id="skills" class="py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold mb-8 flex items-center gap-2 text-slate-900 dark:text-slate-100">
+      <i data-feather="code" class="text-blue-500"></i> Technical Toolkit
+    </h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+        <h3 class="font-semibold text-slate-800 dark:text-slate-200 mb-3 flex items-center gap-2"><i data-feather="terminal" class="w-4 h-4 text-blue-500"></i> Languages</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Java</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Python</span>
+        </div>
+      </div>
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+        <h3 class="font-semibold text-slate-800 dark:text-slate-200 mb-3 flex items-center gap-2"><i data-feather="layers" class="w-4 h-4 text-emerald-500"></i> Full Stack & Web</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">React.js</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Node.js</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Express.js</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">HTML/CSS</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">REST APIs</span>
+        </div>
+      </div>
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+        <h3 class="font-semibold text-slate-800 dark:text-slate-200 mb-3 flex items-center gap-2"><i data-feather="cpu" class="w-4 h-4 text-purple-500"></i> AI & ML</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Agentic AI</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Generative AI</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Scikit-learn</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Pandas</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">NumPy</span>
+        </div>
+      </div>
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+        <h3 class="font-semibold text-slate-800 dark:text-slate-200 mb-3 flex items-center gap-2"><i data-feather="database" class="w-4 h-4 text-sky-500"></i> Databases & Cloud</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">SQL</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">MySQL</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">MongoDB</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">AWS</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Azure</span>
+        </div>
+      </div>
+      <div class="bg-white dark:bg-slate-900 p-5 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+        <h3 class="font-semibold text-slate-800 dark:text-slate-200 mb-3 flex items-center gap-2"><i data-feather="layout" class="w-4 h-4 text-pink-500"></i> UI/UX & Design</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Figma</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Canva</span>
+          <span class="text-xs bg-slate-100 dark:bg-slate-800 px-2.5 py-1 rounded">Wireframing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold mb-8 text-slate-900 dark:text-slate-100">Featured Work</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <!-- Project 1 -->
+      <div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+        <div>
+          <h3 class="text-lg font-bold mb-2">FeedingMe – Food Donation Platform</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Full-stack web platform connecting food donors with NGOs and trusts to mitigate food wastage through automated tracking.</p>
+        </div>
+        <div class="flex justify-between items-center pt-4 border-t border-slate-100 dark:border-slate-800">
+          <a href="https://github.com/santhiya-udhaya" target="_blank" class="text-xs text-blue-500 font-semibold hover:underline">GitHub Repo</a>
+          <button onclick="openModal('FeedingMe', 'https://santhiya-portfolio-plum.vercel.app/')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs px-3 py-1.5 rounded-lg transition">Live Demo</button>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+        <div>
+          <h3 class="text-lg font-bold mb-2">NER-SHIELD (Landslide Early Warning AI)</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">AI-powered GIS dashboard visualizing rainfall, soil moisture, historical records, and terrain data for landslide risk monitoring.</p>
+        </div>
+        <div class="flex justify-between items-center pt-4 border-t border-slate-100 dark:border-slate-800">
+          <a href="https://github.com/santhiya-udhaya" target="_blank" class="text-xs text-blue-500 font-semibold hover:underline">GitHub Repo</a>
+          <button onclick="openModal('NER-SHIELD AI', 'https://santhiya-portfolio-plum.vercel.app/')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs px-3 py-1.5 rounded-lg transition">Live Demo</button>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+        <div>
+          <h3 class="text-lg font-bold mb-2">Phishing URL Detection Using ML</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Cybersecurity machine learning classifier extracting feature sets from URL data to detect phishing threats.</p>
+        </div>
+        <div class="flex justify-between items-center pt-4 border-t border-slate-100 dark:border-slate-800">
+          <a href="https://github.com/santhiya-udhaya" target="_blank" class="text-xs text-blue-500 font-semibold hover:underline">GitHub Repo</a>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+        <div>
+          <h3 class="text-lg font-bold mb-2">Healthcare Agentic AI Prototype</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Agent-based system processing medical information and automating decision-support interaction workflows.</p>
+        </div>
+        <div class="flex justify-between items-center pt-4 border-t border-slate-100 dark:border-slate-800">
+          <a href="https://github.com/santhiya-udhaya" target="_blank" class="text-xs text-blue-500 font-semibold hover:underline">GitHub Repo</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Modal Popup -->
+  <div id="demo-modal" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white dark:bg-slate-900 w-full max-w-4xl rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden shadow-2xl">
+      <div class="px-6 py-4 flex justify-between items-center border-b border-slate-200 dark:border-slate-800">
+        <h3 id="modal-title" class="font-bold text-lg">Project Live Demo</h3>
+        <button onclick="closeModal()" class="text-slate-500 hover:text-slate-700 dark:hover:text-slate-200 p-1"><i data-feather="x"></i></button>
+      </div>
+      <div class="h-[450px] bg-slate-950">
+        <iframe id="modal-frame" src="" class="w-full h-full border-0"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 max-w-xl mx-auto text-center">
+    <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+      <h2 class="text-2xl font-bold mb-2">Get In Touch</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mb-6">santhiyaraja488@gmail.com | +91 9360512339</p>
+      <a href="mailto:santhiyaraja488@gmail.com" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-lg font-medium text-sm transition inline-block">Send Email</a>
+    </div>
+  </section>
+
+  <script>
+    feather.replace();
+
+    // Theme Switcher Logic
+    const themeBtn = document.getElementById('theme-toggle');
+    themeBtn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+    });
+
+    if (localStorage.getItem('theme') === 'light') {
+      document.documentElement.classList.remove('dark');
+    }
+
+    // Modal Handlers
+    function openModal(title, url) {
+      document.getElementById('modal-title').innerText = title;
+      document.getElementById('modal-frame').src = url;
+      document.getElementById('demo-modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('demo-modal').classList.add('hidden');
+      document.getElementById('modal-frame').src = '';
+    }
+  </script>
+</body>
+</html>
